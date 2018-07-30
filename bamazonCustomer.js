@@ -20,7 +20,7 @@ connection.connect(function(err) {
     connection.query("SELECT * FROM products", function(err, res) {
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
-            console.log("#" + res[i].item_id + " | " + res[i].product_name + " | $" + res[i].price);
+            console.log("#" + res[i].item_id + " | " + res[i].product_name + " | $" + res[i].price + " | " + res[i].stock_quantity + " Quantity");
         }
         console.log("=====================");
         // Function to read the products  
@@ -34,7 +34,7 @@ function readProducts() {
       {
         name: "item",
         type: "input",
-        message: "Enter the ID of the item that you want",
+        message: "Enter the ID of the item that you want (1-10)",
       },
       {
         name: "amount",

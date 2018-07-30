@@ -1,4 +1,6 @@
-# bamazon-mysql
+# Bamazon
+
+Welcome to the greatest APP ever created. It uses the MYSQL NPM and the INQUIRER NPM. Both top notch packages.
 
 Here are the links to the video of user flow of the application
 

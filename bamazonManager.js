@@ -59,8 +59,13 @@ function viewLow() {
     connection.query("SELECT * FROM products WHERE stock_quantity < 5", function(err, res) {
         if (err) throw err;
         for (var i = 0; i < res.length; i++) {
+            console.log("Showing items with a quantity less than 5:");
             console.log("#" + res[i].item_id + " | " + res[i].product_name + " | Department: " + res[i].department_name + " | $" + res[i].price + " | " + res[i].stock_quantity + " Quantity");
         }
         connection.end();
     })
+}
+
+function addToInventory() {
+    
 }

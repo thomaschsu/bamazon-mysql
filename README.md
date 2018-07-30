@@ -1,11 +1,24 @@
-# Bamazon
+# Bamazon Application
 
 Welcome to the greatest APP ever created. It uses the MYSQL NPM and the INQUIRER NPM. Both top notch packages.
 
 So what exactly is Bamazon? Is it Amazon...? Not quite.
 
-Here we have the customer view... Pretty simple huh.
+# Work Flow
 
-Here are the links to the video of user flow of the application
+Here we have the customer view:
 
-Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it.
+The app prompts users with two messages.
+
+
+
+   * The first asks them the ID of the product they would like to buy.
+   * The second message asks how many units of the product they would like to buy.
+   * The application checks if the store has enough of the product to meet the customer's request.
+
+Here is the manager view:
+
+   * If a manager selects `View Products for Sale`, the app lists every available item.
+   * If a manager selects `View Low Inventory`, then it lists all items with an inventory count lower than five.
+   * If a manager selects `Add to Inventory`, the app displays a prompt that will let the manager "add more" of any item currently in the store.
+   * If a manager selects `Add New Product`, it allows the manager to add a completely new product to the store.

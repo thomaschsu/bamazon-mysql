@@ -46,7 +46,7 @@ function readProducts() {
         connection.query("SELECT * FROM products WHERE ?", {
             item_id: answer.item
         }, function(err, res) {
-          if (answer.amount < 11 && answer.amount > 0) {
+          if (answer.item < 11 && answer.item > 0) {
             if (res[0].stock_quantity < parseInt(answer.amount)) {
               console.log("Sorry. Not enough quantity. :(");
               console.log("=====================");

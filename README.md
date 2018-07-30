@@ -12,7 +12,7 @@ The app prompts users with two messages.
 
 
 
-   * The first asks them the ID of the product they would like to buy.
+   * The first message asks them the ID of the product they would like to buy.
    * The second message asks how many units of the product they would like to buy.
    * The application checks if the store has enough of the product to meet the customer's request.
 

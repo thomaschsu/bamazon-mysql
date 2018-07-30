@@ -25,7 +25,7 @@ connection.connect(function(err) {
         console.log("=====================");
         // Function to read the products  
         readProducts();
-    })
+    });
 });
 
 // Function to read products
@@ -74,6 +74,6 @@ function readProducts() {
             console.log("Enter an ID from 1-10");
             connection.end();
           }
-        })
+        });
     });
-};
+}

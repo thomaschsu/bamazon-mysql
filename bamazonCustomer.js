@@ -53,7 +53,7 @@ function readProducts() {
               connection.end();
           }
           else {
-              console.log("Your purchase: " + res[0].product_name + ". The total cost is: $ " + parseInt(res[0].price) * parseInt(answer.amount));
+              console.log("Your purchase: " + res[0].product_name + ". The total cost is: $" + parseInt(res[0].price) * parseInt(answer.amount));
               var quantityLeft = res[0].stock_quantity - answer.amount;
               console.log("Quantity left: " + quantityLeft);
               connection.query(
@@ -68,7 +68,7 @@ function readProducts() {
                       if (error) throw err;
                   });
               console.log("Inventory updated. There are " + quantityLeft + " left");
-              readProducts();
+              connection.end();
           }
           } else {
             console.log("Enter an ID from 1-10");

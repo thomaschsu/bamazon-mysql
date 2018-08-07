@@ -1,7 +1,7 @@
 # Bamazon Application
 
 ### Description
-Welcome to the greatest APP ever created. It uses the MYSQL NPM and the INQUIRER NPM. Both top notch packages.
+Welcome to the greatest APP ever created. It uses the MySQL NPM and the Inquirer NPM. Both top notch packages.
 
 So what exactly is Bamazon? Is it Amazon...? Not quite.
 

@@ -7,7 +7,17 @@ So what exactly is Bamazon? Is it Amazon...? Not quite.
 
 - - -
 
-### Work Flow / Screenshots
+### Work Flow
+
+1. User imports products into SQL.
+2. Modify the password for the MySQL NPM package
+3. Run NPM to install MySQL and Inquirer
+4. Use CLI to run the JS files using Node.
+5. Enjoy.
+
+- - -
+
+### Screenshots
 
 Here we have the customer view:
 

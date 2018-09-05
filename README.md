@@ -42,5 +42,4 @@ The app prompts users with two messages.
    1. JavaScript
    2. MySQL
    3. Node.js / NPM
-   4. Photoshop
-   5. CLI
+   4. CLI
